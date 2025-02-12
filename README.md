@@ -1,4 +1,4 @@
-# 营销通用户工作台
+# digital Resourse用户工作台
 
 ```
 npm install
@@ -19,6 +19,6 @@ npm run build
 ### 测试账户
 
 ```
-maggie001(123456)
-test(123456)
+20350101(123456)
+
 ```
