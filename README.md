@@ -16,10 +16,11 @@ npm run serve
 npm run build
 ```
 
-### 测试账户
+### 测试账户( demo account )
 
 ```
-20350101(123456)
+id: 20350101
+pwd: 123456
 
 ```
 
@@ -37,7 +38,7 @@ npm run build
 ![image](public/images/workspace.png)
 
 
-###合作联系 (Contact )：
+### 合作联系 (Contact )：
 email: mars1118zy@gmail.com
 
 
