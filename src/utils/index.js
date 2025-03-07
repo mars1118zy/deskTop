@@ -1,5 +1,6 @@
 import store from '../store'
 import { isString, isObject } from './BaseUtil'
+
 export const showLoading = (isLoading = false, text = '') => {
     if (typeof isLoading === 'string') {
         text = isLoading
@@ -7,8 +8,11 @@ export const showLoading = (isLoading = false, text = '') => {
     }
     return store.commit('widget/showLoading', { isLoading, text })
 }
+
 export const hideLoading = () => store.commit('widget/showLoading', false)
+
 export const showMessage = (config) => store.commit('widget/showMessage', config)
+
 export const showError = (config) => {
     const temp = {}
     if (isString(config)) {
